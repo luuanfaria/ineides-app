@@ -2,9 +2,9 @@ import styled from 'styled-components/native';
 import { theme } from '../../global/styles/theme';
 
 export const Container = styled.TouchableOpacity`
-  height: 46px;
-  background: ${theme.colors.darkBlue};
-  border-radius: 4px;
+  height: 50px;
+  background: ${theme.colors.primary};
+  border-radius: 8px;
 
   align-items: center;
   justify-content: center;

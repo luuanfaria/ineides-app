@@ -14,7 +14,7 @@ export const Container = styled.View`
 export const Image = styled.Image`
   width: 100%;
   height: 220px;
-`
+`;
 
 export const Form = styled.View`
   align-self: stretch;
