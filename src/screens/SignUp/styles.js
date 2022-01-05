@@ -53,7 +53,7 @@ export const Form = styled.View`
 `;
 
 export const FormBox = styled.View`
-  margin-bottom: 22px;
+  margin-bottom: 8px;
 `;
 
 export const FormTitle = styled.Text`
@@ -68,5 +68,40 @@ export const FormInput = styled.TextInput.attrs({
   font-size: 15px;
   padding: 16px 25px;
   border-radius: 8px;
+  color: #333;
+`;
+
+export const FormDocuments = styled.View`
+  background: ${theme.colors.primary};
+  color: #FFF;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 22px;
+`;
+
+export const FormDocumentsImage = styled.View`
+  padding: 12px;
+`;
+
+export const FormDocumentsTitle = styled.Text`
+  color: #FFF;
+  font-size: 18px;
+  font-weight: bold;
+`;
+
+export const FormDocumentsText = styled.Text`
+  color: #FFF;
+  padding: 12px 22px 22px;
+  text-align: center;
+  line-height: 18px;
+`;
+
+export const TextInfo = styled.Text`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
   color: #333;
 `;

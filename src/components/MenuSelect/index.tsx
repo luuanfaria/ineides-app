@@ -7,7 +7,7 @@ import { menu } from '../../utils/menu';
 import { Container, Title, Content } from './styles';
 
 export function MenuSelect() {
-  const [isSelected, setIsSelected] = useState(false);
+  const [isSelected, setIsSelected] = useState('Agenda');
   return (
     <Container>
       <Title>Meus atalhos</Title>
@@ -23,7 +23,7 @@ export function MenuSelect() {
               title={menu.title}
               icon={menu.icon}
               onClick={() =>{
-                setIsSelected(true)
+                setIsSelected(menu.title)
               }}
             />
           ))
