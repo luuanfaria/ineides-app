@@ -5,6 +5,7 @@ import { Home } from '../screens/Home';
 import { SignIn } from '../screens/SignIn';
 import { SignUp } from '../screens/SignUp';
 import { SignUpSuccess } from '../screens/SignUpSuccess';
+import { ForgotPassword } from '../screens/ForgotPassword';
 
 import { theme } from '../global/styles/theme';
 
@@ -40,6 +41,11 @@ export function AuthRoutes() {
       <Screen
         name="SignUpSuccess"
         component={SignUpSuccess}
+      />
+
+      <Screen
+        name="ForgotPassword"
+        component={ForgotPassword}
       />
 
     </Navigator>

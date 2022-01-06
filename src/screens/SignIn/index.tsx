@@ -47,7 +47,7 @@ export function SignIn({ navigation }: { navigation: any }) {
           </SubmitButton>
         </Form>
 
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate('ForgotPassword')}>
           <ForgotPassText>Esqueci minha senha</ForgotPassText>
         </TouchableOpacity>
 
